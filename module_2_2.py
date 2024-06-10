@@ -1,15 +1,15 @@
-first = 158976
-second = 158976
-third = 158976
+first = input('Введите первое число: ')
+second = input('Введите второе число: ')
+third = input('Введите третье число: ')
 if first == second == third:
-    print(3)
+    print('Количество совпадений = 3')
 elif first == second:
-    print(2)
+    print('Количество совпадений = 2')
 elif first == third:
-    print(2)
+    print('Количество совпадений = 2')
 elif second == third:
-    print(2)
+    print('Количество совпадений = 2')
 else:
-    print(0)
+    print('Количество совпадений = 0')
 
 # Условная конструкция. Операторы if, elif, else. Д/з сдано 2024/06/11 08:40
